@@ -38,6 +38,7 @@
 
 .flip-card-back {
     transform: rotateY(180deg);
+    background-color: black;
 }
 
 .flip-card-back video {
@@ -46,4 +47,6 @@
     height: 100%;
     object-fit: contain;
     pointer-events: none;
+    border-radius: 50%;
+    
 }
